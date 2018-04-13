@@ -1,0 +1,48 @@
+@import 'movie-list/movie-list-template.wxss';
+@import 'movie-grid/movie-grid-template.wxss';
+/*引用wsxx */
+
+.container {
+    background-color: #f2f2f2;
+}
+
+.search {
+    background-color: #f2f2f2;
+    height: 80rpx;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+icon {
+    margin: auto 0 auto 20rpx;
+}
+
+.search input {
+    height: 80rpx;
+    width: 600rpx;
+    margin-left: 20rpx;
+    font-size: 20rpx;
+    
+}
+
+.placeholder {
+    font-size: 28rpx;
+    color: #d1d1d1;
+    margin-left: 20rpx;
+}
+
+.search-img {
+    margin: auto 0 auto 20rpx;
+    width: 26rpx;
+    height: 26rpx;
+}
+
+.movies-template {
+    margin-bottom: 30rpx;
+}
+
+.search-panel{
+    position: absolute;
+    top:80rpx;
+}

@@ -1,0 +1,11 @@
+<import src='../stars/stars-template.wxml' />
+<template name='movieTemplate'>
+    <view class='movie-container' catchtap='onMovieTap' data-movieId="{{movieId}}">
+        <image class='movie-img' src='{{coverageUrl}}'></image>
+        <text class='movie-title'>{{title}}</text>
+        <!-- 把stars赋值给stars，把average赋值给score，
+        从而把stars和average封装成为一个js对象
+        因为data = “”里只能传一个对象，因此必须把stars和average封装成为一个对象-->
+        <template is='starsTemplate' data = "{{stars:stars,score:average}}" />
+    </view>
+</template>

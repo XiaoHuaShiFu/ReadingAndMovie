@@ -1,0 +1,41 @@
+@import '../movie/movie-template.wxss';
+
+.movie-list-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+}
+
+.inner-container{
+    margin: 0 auto 20rpx;  /*使内部的元素左右自动居中 */
+}
+
+
+.movie-head {
+    padding: 30rpx 20rpx 22rpx;
+}
+
+.slogan {
+    font-size: 24rpx;
+}
+
+.more {
+       float: right;   
+}
+
+.more-text {
+    vertical-align: middle;
+    margin-right: 10rpx;
+    color: #1f4ba5;
+}
+
+.more-img {
+    vertical-align: middle;
+    height: 16rpx;
+    width: 9rpx;
+}
+
+.movies-container {
+    display: flex;
+    flex-direction: row;
+}

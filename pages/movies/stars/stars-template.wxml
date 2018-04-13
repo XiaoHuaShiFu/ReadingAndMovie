@@ -1,0 +1,24 @@
+<template name="starsTemplate">
+    <view class='stars-container'>
+        <!--   个人的写法
+        <view class='stars'>
+            <image src="{{(average>0)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+            <image src="{{(average>2)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+            <image src="{{(average>4)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+            <image src="{{(average>6)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+            <image src="{{(average>8)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+        </view>
+        <text class='star-score'>{{average}}</text> 
+        -->
+        <view class='stars'>
+        <block wx:for = "{{stars}}" wx:for-item = "i" wx:key="{{*this}}">
+            <!-- 教程写法
+            <image wx:if = "{{i}}" src='/images/icon/star.png'></image>
+            <image wx:else src='/images/icon/none-star.png'></image>
+             -->
+            <image src="{{(i==1)? '/images/icon/star.png':'/images/icon/none-star.png'}}"></image>
+        </block>
+        </view>
+        <text class='star-score'>{{score}}</text> 
+    </view>
+</template>
