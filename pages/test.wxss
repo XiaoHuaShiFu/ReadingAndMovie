@@ -1,0 +1,15 @@
+.test{
+    width: 375px;
+    background-color: #666666;
+    color: red;
+}
+
+.cls {
+    border: 1px solid #666666;
+    border-radius: 10px;
+}
+image{
+    background-color: red;
+    width: 50rpx;
+    height: 50rpx;
+}
