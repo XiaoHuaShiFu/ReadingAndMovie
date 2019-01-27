@@ -65,6 +65,7 @@ Page({
                 movieId: subject.id,
             }
             movies.push(temp);
+            console.log(movies[1]);
         }
         var totalMovies = {};
 

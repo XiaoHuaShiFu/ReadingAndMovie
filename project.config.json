@@ -10,7 +10,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "1.9.91",
 	"appid": "touristappid",
-	"projectname": "ReaderAndMovie",
+	"projectname": "test",
 	"condition": {
 		"search": {
 			"current": -1,
